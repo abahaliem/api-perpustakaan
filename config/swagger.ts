@@ -4,7 +4,7 @@ import { SwaggerConfig } from '@ioc:Adonis/Addons/Swagger'
 export default {
 
 	uiEnabled: true, //disable or enable swaggerUi route
-	uiUrl: 'docs', // url path to swaggerUI
+	uiUrl: 'https://api-perpustakaan.up.railway.app/docs', // url path to swaggerUI
 	specEnabled: true, //disable or enable swagger.json route
 	specUrl: '/swagger.json',
 	
@@ -21,6 +21,7 @@ export default {
 				description: 'Nodejs Backend Dev With Adonis'
 			},
 			components: {
+				
 				validatorUrl: null,
 				securitySchemes: {
 					bearerAuth: {
