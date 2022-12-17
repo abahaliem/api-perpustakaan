@@ -16,7 +16,8 @@ export default {
 			info: {
 				title: 'Restful Perpustakaan App',
 				version: '1.0.0',
-				description: 'Nodejs Backend Dev With Adonis'
+				description: 'Nodejs Backend Dev With Adonis',
+				Author: 'M Abdul Alim Alami'
 			},
 			components: {
 				
