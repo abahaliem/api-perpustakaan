@@ -10,7 +10,7 @@ export default {
 	
 
 
-	// middleware: [], // middlewares array, for protect your swagger docs and spec endpoints
+	middleware: [], // middlewares array, for protect your swagger docs and spec endpoints
 
 	options: {
 		definition: {
@@ -21,12 +21,14 @@ export default {
 				description: 'Nodejs Backend Dev With Adonis'
 			},
 			components: {
+				validatorUrl: null,
 				securitySchemes: {
 					bearerAuth: {
-						type: 'http',
+						type: 'https',
 						scheme: 'bearer'
 					}
 				}
+					
 			}
 		},
 
