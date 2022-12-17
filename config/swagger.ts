@@ -23,7 +23,7 @@ export default {
 				validatorUrl: null,
 				securitySchemes: {
 					bearerAuth: {
-						type: 'https',
+						type: 'http',
 						scheme: 'bearer'
 					}
 				}
